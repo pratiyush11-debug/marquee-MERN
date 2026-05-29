@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transform</title>
+    <!-- tranformation main hum chaar chiz kara sakte hai
+     1.rotate(degree)
+     2.scale(number(1,2,3or0.5 to reduce ))
+     3.skew(degree)
+     4.translate(px) -->
+     <style>
+        .box{
+            height: 50px;
+            width: 50px;
+            border: 2px solid;
+            border-radius: 5px;
+            background-color: blanchedalmond;
+            position: relative;
+            top: 50px;
+            left: 50px;
+             transition: all 2s ease-in;
+            /* transform: rotate(45deg); */
+
+        }
+        .box:hover{
+            background-color: hotpink;
+            /* transform:scale(0.5);
+            transform: translate(50px );
+            */
+            /* transition-duration: 2s; */
+            /* transition-timing-function: steps(10) ; */
+            /* transition-delay: 0.5s; */
+            transform: skewx(180deg);
+
+        }
+     </style>
+</head>
+<body>
+    <div class="box">Skew</div>
+    
+</body>
+</html>

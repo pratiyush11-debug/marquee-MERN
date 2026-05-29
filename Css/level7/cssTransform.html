@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transform</title>
+    <!-- tranformation main hum chaar chiz kara sakte hai
+     1.rotate
+     2.scale
+     3.skew
+     4.translate -->
+     <style>
+        .box{
+            height: 50px;
+            width: 50px;
+            border: 2px solid;
+            border-radius: 5px;
+            background-color: blanchedalmond;
+            position: relative;
+            top: 50px;
+            left: 50px;
+             transition: all 0.5s ease-in;
+            /* transform: rotate(45deg); */
+
+        }
+        .box:hover{
+            background-color: hotpink;
+            transform: rotatey(180deg);
+           
+            /* transition-duration: 2s; */
+            /* transition-timing-function: steps(10) ; */
+            /* transition-delay: 0.5s; */
+            
+
+        }
+     </style>
+</head>
+<body>
+    <div class="box">Rotate</div>
+    
+</body>
+</html>

@@ -1,0 +1,69 @@
+<html>
+<head>
+    <title>CodeTantra Teach & Learn Anywhere</title>
+    <link href="/css/bootstrap-latest.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="/css/select2-latest.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-align: center;
+            align-items: center;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background-color: #f5f5f5;
+        }
+
+        .form-domain-select {
+            width: 90%;
+            max-width: 420px;
+            padding: 15px;
+            margin: auto;
+        }
+
+        .form-domain-select .form-control {
+            position: relative;
+            box-sizing: border-box;
+            height: auto;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        .form-domain-select input[type="select"] {
+            margin-bottom: -1px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+
+        .ct_select2_option ul li {
+            padding: 16px 8px;
+        }
+
+
+    </style>
+    <script src="/js/jquery-latest.js"></script>
+    <script src="/js/bootstrap-latest.js"></script>
+    <script src="/js/select2-latest.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+<form class="form-domain-select">
+    <img style="width: 100%" src="/img/logo-black-text.png" alt="CodeTantra.com" id="ct-domain-name">
+    <label for="domainNameSelect" class="sr-only">Domain Name</label>
+    <select id="domainNameSelect" name="domainNameSelect"
+            class="form-control mw-100" >
+    </select>
+    
+    <div>
+        <button class="btn btn-primary btn-block d-none mt-5" id="goButton" type="submit">Go</button>
+    </div>
+    
+</form>
+<script src="/js/custom-min/dns.min.js"></script>
+</body>
+</html>

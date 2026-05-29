@@ -1,0 +1,16 @@
+Elements: two types
+1.container elements:-opening closing tag and content
+2.self enclosing: it has only openting tag with attributes.
+attributes: addtional information.
+example:alt,style,href
+<!-- //<pre>pre "preserve" tag isme jese likhenge content waise hi dikhayega space dalenge jitna utna space bhi dikhayega   -->
+    validator.w3.org:ispe hum jake hume agar kuch error aarha hai toh check kar skte hai ki kidhar pai hai error.
+sematic tags: tags which have some meaing and imporve SEO(Search engine organization) is called semantic tags.
+example:header main footer
+non semantic tags : the tags which are not in sequence and make no sense but we can use it.
+example:paragragh tag div tag etc.
+tables: tables have three tags tr :table row,th:table heading,td:table data 
+if we need table title so we can use <caption> and give the title 
+    and for merging columns to become as one column we have <colspan="2"> so by using this we can merge columns.
+ 
+

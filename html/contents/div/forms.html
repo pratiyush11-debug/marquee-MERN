@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        input{
+            border: none;
+            border-bottom: 2px dashed;
+        }
+        li{
+            padding: 10px 0px;
+        }
+    </style>
+</head>
+<body>
+    
+    <form action="actionPage.html" method="get"><h2>Sports Physical form</h2>
+        <fieldset>
+            <legend>
+                Date/Time
+            </legend>
+            <ul>
+                <li>
+                <label for="dob"> DOB</label>
+                <input type="date" time="" id="dob"></li>
+                 <li>
+                <label for="time"> Time</label>
+                <input type="time" time="" id="time"></li>
+                 <li>
+                <label for="datetime"> Date-Time</label>
+                <input type="datetime" time="" id="datetime"></li>
+                 <li>
+                <label for="local"> Loacl Date-Time</label>
+                <input type="datetime-local" time="" id="local"></li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Athelete Information
+            </legend>
+            <ul>
+                <li>
+                    <label for="name" >Name: </label>
+            <input type="text" id="name" placeholder=" EnterName" name="Name">
+
+                </li>
+                <li>
+                    <label for="teamname">School/Team:  </label>
+            <input type="text" id="teamname" placeholder="EnterTeamName" required value="DunkenBoys" readonly>
+                </li>
+                <li>
+                    <label for="sportname">Sport:  </label>
+            <input type="text" id="sportname "placeholder="EnterSportName">
+                </li>
+                <li>
+                    <label for="guardianname">Parent/Guardian Name: </label>
+            <input type="text" id="guardianname" placeholder="EnterGuardianName" >
+                </li>
+                <li>
+                    <label for="contact">Contact Number:  </label>
+            <input type="text" id="contact" placeholder="EnterContactNumber">
+                </li>
+                <!-- <input type="submit" value="submit" > -->
+               <button type="submit" value="submit">Submit</button>
+               
+
+        
+            
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Medical History for Athelete
+            </legend>
+            <ul>
+                <li>
+                    <p>History of Concussions: 
+                    <label for="history" > Yes </label>
+                    <input type="radio" id="history"  name="hhistory" placeholder="EnterHistory">
+                    <label for="ihistory" >No </label>
+                    <input type="radio" id="ihistory" name="hhistory" placeholder="EnterHistory"></p>
+                </li>
+                <li>
+                    <label for="surgery" > Previous surgeries:
+                    <input type="text"  name="surgery" placeholder="EnterPreviousSurgery"></label>
+
+                </li>
+                <li>
+                    <p>Any Bone Fractures:
+                    <label for="surgery" > Yes </label>
+                    <input type="radio" id="surgery"  name="iFractures">
+                    <label for="surgery1" >No </label>
+                    <input type="radio" id="surgery1" name="iFractures" >
+                    </p>
+
+
+                </li>
+            </ul>
+            
+        </fieldset>
+        <fieldset>
+            <ul>
+            <li>
+                <label for="summary">Summary of your Operations: </label>
+                <textarea rows="10" id="sumamary" cols="30" placeholder="Write Your Summary"> </textarea>
+
+            </li>
+            </ul>
+
+            
+        </fieldset>
+        <fieldset>
+            <legend>
+                File Input
+            </legend>
+            Drop your last Medical report:
+            <input type="file" name="" id="" accept=".pdf" >
+        </fieldset><legend>CheckBox</legend>
+        <fieldset>
+            <ul>Fruits: 
+                <li>
+                    <label for="1">Mango</label>
+                    <input type="checkbox" id="1" name="a" >
+
+                </li>
+                <li>
+                    <label for="2">Banana</label>
+                    <input type="checkbox" id="2" name="a" >
+
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Select  </legend>
+            <label for="state">Select your State: </label>
+            <select name="state" id="state">
+                <option value="gujarat"> Gujarat</option>
+                 <option value="maharashtra"> Maharastra</option>
+                  <option value="bihar"> bihar</option>
+                   <option value="up"> up</option>
+                    <option value="rajasthan"> Rajasthan</option>
+                     <option value="sikkim"> sikkim</option>
+
+                
+            </select>
+
+
+        </fieldset>
+        
+      
+    </form>
+    
+</body>
+</html>

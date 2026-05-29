@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        .pseudo{
+            height: 30px;
+            width: 150px;
+            background-color: hotpink;
+            border: 2px solid;
+            border-radius: 10px;
+            transition-property: all;
+            transition-duration: 0.5s;
+            /* transition-timing-function:ease-in-out; */
+            transition-timing-function: steps(6);
+            transition-delay: 0.5s;
+
+        } 
+        .pseudo:hover{
+            background-color: aqua; height: 40px;
+            width: 160px;
+        }
+        .pseudo:active{
+            height: 40px;
+            width: 160px;
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <button class="pseudo">Learning Pseudo</button>
+    
+</body>
+</html>
