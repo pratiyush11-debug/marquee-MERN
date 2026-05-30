@@ -80,7 +80,7 @@ nav {
 
 .btn-box {
   width: 70%;
-  background-color: aquamarine;
+  background-color:coral;
   height: 80%;
 }
 .login-box {
@@ -91,8 +91,9 @@ nav {
 
 #icons-box {
   width: 100%;
-  background-color: greenyellow;
+  background-color: blue;
   height: 80px;
+  /* border-radius: 20px; */
 }
 
 #icons-box {
@@ -108,6 +109,7 @@ nav {
   height: 70px;
   padding: 5px;
   background-color: rgb(233, 233, 233);
+  border-radius: 20px;
 }
 
 main {
@@ -134,14 +136,57 @@ main {
 
 #banner-item-1 {
   flex-grow: 2;
-  background-color: aqua;
+  background-color: rgb(10, 174, 70);
 }
 #banner-item-2 {
   flex-grow: 2;
-  background-color: crimson;
+  background-color: hotpink;
 }
 
 #banner-item-3 {
   flex-grow: 1;
-  background-color: beige;
+  background-color: rgb(204, 204, 14);
+}
+
+#home-decor{
+  width:95%;
+  height:0px auto;
+  margin:20px ;
+  background-color: brown;
+  border-radius: 20px;
+  padding: 10px;
+
+}
+#home-decor-top{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-bottom: 30px;
+
+}
+.right-swipe-icons{
+  color: black;
+  padding: 1rem 1rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+#home-decors-cards-container{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+
+
+}
+.home-decor-cards{
+  display: flex;
+  height: 200px;
+  width: 200px;
+  background-color:rgb(128, 128, 128,0.6) ;
+  margin: 1rem;
+  border-radius: 1rem;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+
 }
