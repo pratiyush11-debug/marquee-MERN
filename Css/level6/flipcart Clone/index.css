@@ -152,7 +152,7 @@ main {
   width:95%;
   height:0px auto;
   margin:20px ;
-  background-color: brown;
+  background-color:rgb(240, 230, 140,0.7);
   border-radius: 20px;
   padding: 10px;
 
@@ -189,4 +189,16 @@ main {
   align-items: center;
 
 
+}
+#item-1{
+  background-color: hotpink;
+}
+#item-2{
+  background-color: aqua;
+}
+#item-3{
+  background-color: darksalmon;
+}
+#item-4{
+  background-color:antiquewhite;
 }
