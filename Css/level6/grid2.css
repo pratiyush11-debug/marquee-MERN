@@ -27,6 +27,7 @@ body{
     height: 500px;
     width: 500px;
     gap: 20px;
+   
 
     /* justify-content: center; */
 
@@ -34,10 +35,11 @@ body{
     
 }
 h1{
-    margin-right: 450px;
+    margin-right: 950px;
 }
  .item{
     display: flex;
+
 
    
     /* width:100px;
@@ -79,6 +81,7 @@ h1{
 .item5{
     
     background-color: rgb(29, 171, 193);
+   
 
 }
 .item6{
