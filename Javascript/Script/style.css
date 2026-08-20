@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  background-color:whitesmoke;  
+}
+.nav {
+  height: auto;
+  height: auto;
+    width: 100%;
+    position: fixed;
+    margin-top: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  font-style: normal;
+  font-size: 30px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.hero {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 230px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 180px;
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-style: normal;
+}
+
+.Herosection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>use of fetch</title>
+</head>
+<body>
+    <script>
+        async function fetchdata(){
+            try{
+                let data= await fetch("./hello.json");
+                console.log(data);
+                let x =await data.json();
+                console.log(typeof(x.age));
+                let z=parseInt(x.age);
+                console.log(z);
+                
+                
+                
+            }
+            catch(err){
+                console.log(err);
+                
+            }
+        }
+        fetchdata();
+
+    </script>
+    
+</body>
+</html>

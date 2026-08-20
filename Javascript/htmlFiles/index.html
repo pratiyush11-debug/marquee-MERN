@@ -4,10 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="Script/index.js">
-    <script> src="Script/index.js"</script>
+   
+   
 </head>
 <body>
+    <ul id="unorderedlist">
+        <li class="items">Item</li>
+        <li class="items">Item</li>
+        <li class="items">Item</li>
+        <li class="items">Item</li>
+        <li class="items">Item</li>
+        <li class="items">Item</li>
+    </ul>
+     <ul id="unorderedlist-2">
+        <li class="items">Item1</li>
+        <li class="items">Item2</li>
+        <li class="items">Item3</li>
+        <li class="items">Item4</li>
+        <li class="items">Item5</li>
+        <li class="items">Item6</li>
+    </ul>
+    <script> 
+        let value=document.getElementById('unorderedlist');
+        let value2=document.getElementById('usorderedlist-2');
+        let allItem=document.getElementsByTagName('li');
+        console.log(value);
+        console.log(value2);
+        Object.values(allItem).forEach((item)=>{
+            console.log(item);
+        })
+        
+        
+    </script>
+
     
 </body>
 </html>

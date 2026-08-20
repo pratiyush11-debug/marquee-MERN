@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+  </head>
+  <body>
+    <div class="wrapper">
+        <div class="nav">
+      <ul>
+        <li>STUDIO MAXO</a></li>
+           <li id="modeChange">DARK MODE</li>
+        <li>MENU</a></li>
+        <li>LET'S TALK</a></li>
+      </ul>
+    </div>
+    <div class="Herosection">
+      <div class="hero">
+        <h1 type="">WE THINK CRAFT AND DESIGN</h1>
+      </div>
+    </div>
+    </div>
+    <div class="videosection">
+       <video
+      src="https://studionamma.vercel.app/videos/16-9_light-hd.mp4"
+      autoplay
+      muted
+  
+    ></video>
+    </div>
+ <script>
+  const video = document.getElementsByTagName("video");
+    const modeChange = document.getElementById("modeChange");
+  console.log(modeChange.textContent);
+  
+  modeChange.addEventListener("click",()=>{
+    if(modeChange.textContent == 'DARK MODE'){
+      this.document.body.style.backgroundColor="black"
+      this.document.body.style.color="white"
+      modeChange.textContent="READING MODE"
+    }
+     else if(modeChange.textContent == 'READING MODE'){
+      modeChange.textContent="LIGHT MODE"
+      this.document.body.style.backgroundColor="rgb(173, 255, 47,0.4)"
+      this.document.body.style.color="black"
+      modeChange.textContent=="DARK MODE"
+
+    }
+      
+      else if (modeChange.textContent == "LIGHT MODE") {
+         modeChange.textContent="DARK MODE"
+        
+        this.document.body.style.backgroundColor = "whitesmoke"
+        this.document.body.style.color = "black";
+        // modeChange.textContent = "DARK MODE";
+    }
+  })
+    
+    
+ </script>
+  </body>
+</html>
